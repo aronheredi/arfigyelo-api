@@ -1,0 +1,58 @@
+{
+  "shops": [
+    {
+      "uuid": "spar-110",
+      "postalCode": "1011",
+      "city": "Budapest I.",
+      "address": "Batthyány tér 5-6",
+      "chainStoreUuid": "3ccc9f35-604c-4ccf-8376-64822ce4bc70",
+      "location": { "latitude": 47.506062, "longitude": 19.038035 },
+      "openingTime": ""
+    },
+    {
+      "uuid": "spar-536",
+      "postalCode": "1117",
+      "city": "Budapest XI.",
+      "address": "Budaörsi út 164-166",
+      "chainStoreUuid": "3ccc9f35-604c-4ccf-8376-64822ce4bc70",
+      "location": { "latitude": 47.464967, "longitude": 19.028402 },
+      "openingTime": "Nyitvatartás: 06:30-21:30#Nyitvatartás - Vasárnap: 07:00-19:00"
+    },
+    {
+      "uuid": "spar-622",
+      "postalCode": "9027",
+      "city": "Győr",
+      "address": "Árpád út 1",
+      "chainStoreUuid": "3ccc9f35-604c-4ccf-8376-64822ce4bc70",
+      "location": { "latitude": 47.679999, "longitude": 17.641221 },
+      "openingTime": ""
+    },
+    {
+      "uuid": "tesco-101",
+      "postalCode": "1113",
+      "city": "Budapest XI.",
+      "address": "Bocskai út 15-17",
+      "chainStoreUuid": "792ea257-0af9-4588-ada7-81bd96c96400",
+      "location": { "latitude": 47.475283, "longitude": 19.043388 },
+      "openingTime": ""
+    },
+    {
+      "uuid": "auchan-002",
+      "postalCode": "1044",
+      "city": "Budapest IV.",
+      "address": "Szentmihályi út 131",
+      "chainStoreUuid": "e9cc63fd-52e0-4c1e-ba8d-d135d7285c63",
+      "location": { "latitude": 47.557366, "longitude": 19.092599 },
+      "openingTime": ""
+    },
+    {
+      "uuid": "tesco-202",
+      "postalCode": "4400",
+      "city": "Nyíregyháza",
+      "address": "Kossuth tér 10",
+      "chainStoreUuid": "792ea257-0af9-4588-ada7-81bd96c96400",
+      "location": { "latitude": 47.955278, "longitude": 21.716944 },
+      "openingTime": ""
+    }
+  ]
+}

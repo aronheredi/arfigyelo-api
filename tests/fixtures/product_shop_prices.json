@@ -1,0 +1,14 @@
+{
+  "shops": [
+    {
+      "uuid": "5999545594554",
+      "shopUuid": "spar-536",
+      "prices": [ { "type": "NORMAL", "amount": 99.0, "unitAmount": 66.0 } ]
+    },
+    {
+      "uuid": "5999545594554",
+      "shopUuid": "spar-622",
+      "prices": [ { "type": "NORMAL", "amount": 92.0, "unitAmount": 61.33 } ]
+    }
+  ]
+}

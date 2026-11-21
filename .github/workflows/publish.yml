@@ -1,0 +1,54 @@
+name: Publish to PyPI
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build distributions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: "3.14"
+          enable-cache: true
+      - name: Build sdist and wheel
+        run: uv build --no-sources
+      - name: Verify version matches release tag
+        run: |
+          version=$(basename dist/*.whl | cut -d- -f2)
+          test "v${version}" = "${GITHUB_REF_NAME}" || {
+            echo "::error::built version ${version} does not match tag ${GITHUB_REF_NAME}"
+            exit 1
+          }
+      - name: Validate metadata and README rendering
+        run: uvx twine check --strict dist/*
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist/
+          if-no-files-found: error
+
+  publish:
+    name: Upload to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/arfigyelo-api
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - name: Publish distributions
+        uses: pypa/gh-action-pypi-publish@release/v1

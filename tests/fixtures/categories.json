@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "id": 1001,
+      "name": "Tejtermék, sajt, tojás",
+      "path": "tejtermek_sajt_tojas",
+      "icon": null,
+      "categoryNodes": [
+        {
+          "id": 2001,
+          "name": "Tej",
+          "path": "tejtermek_sajt_tojas/tej",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 1, "name": "Pasztőrözött ESL tej, 2,8% zsírtart.", "path": "tejtermek_sajt_tojas/tej/esl_28", "icon": null, "categoryNodes": [] },
+            { "id": 2, "name": "Pasztőrözött ESL tej, 1,5% zsírtart.", "path": "tejtermek_sajt_tojas/tej/esl_15", "icon": null, "categoryNodes": [] },
+            { "id": 3, "name": "UHT tej dobozban, 2,8% zsírtart.", "path": "tejtermek_sajt_tojas/tej/uht_28", "icon": null, "categoryNodes": [] },
+            { "id": 4, "name": "UHT tej dobozban, 1,5% zsírtart.", "path": "tejtermek_sajt_tojas/tej/uht_15", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2005,
+          "name": "Tejföl",
+          "path": "tejtermek_sajt_tojas/tejfol",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 5, "name": "Tejföl 20% zsírtart.", "path": "tejtermek_sajt_tojas/tejfol/tejfol_20", "icon": null, "categoryNodes": [] },
+            { "id": 6, "name": "Tejföl 12% zsírtart.", "path": "tejtermek_sajt_tojas/tejfol/tejfol_12", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2007,
+          "name": "Joghurt, túró, kefír",
+          "path": "tejtermek_sajt_tojas/joghurt_turo_kefir",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 7, "name": "Natúr joghurt", "path": "tejtermek_sajt_tojas/joghurt_turo_kefir/natur_joghurt", "icon": null, "categoryNodes": [] },
+            { "id": 8, "name": "Kefir és kaukázusi kefir", "path": "tejtermek_sajt_tojas/joghurt_turo_kefir/kefir", "icon": null, "categoryNodes": [] },
+            { "id": 9, "name": "Tehéntúró", "path": "tejtermek_sajt_tojas/joghurt_turo_kefir/tehenturo", "icon": null, "categoryNodes": [] },
+            { "id": 84, "name": "Gyümölcsjoghurt", "path": "tejtermek_sajt_tojas/joghurt_turo_kefir/gyumolcsjoghurt", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2010,
+          "name": "Sajt",
+          "path": "tejtermek_sajt_tojas/sajt",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 10, "name": "Trappista tömbsajt", "path": "tejtermek_sajt_tojas/sajt/trappista_tombsajt", "icon": null, "categoryNodes": [] },
+            { "id": 105, "name": "Trappista darabolt sajt", "path": "tejtermek_sajt_tojas/sajt/trappista_darabolt_sajt", "icon": null, "categoryNodes": [] },
+            { "id": 106, "name": "Trappista szeletelt sajt", "path": "tejtermek_sajt_tojas/sajt/trappista_szeletelt_sajt", "icon": null, "categoryNodes": [] },
+            { "id": 107, "name": "Ementáli", "path": "tejtermek_sajt_tojas/sajt/ementali", "icon": null, "categoryNodes": [] },
+            { "id": 108, "name": "Cheddar", "path": "tejtermek_sajt_tojas/sajt/cheddar", "icon": null, "categoryNodes": [] },
+            { "id": 109, "name": "Gouda", "path": "tejtermek_sajt_tojas/sajt/gouda", "icon": null, "categoryNodes": [] },
+            { "id": 110, "name": "Edami", "path": "tejtermek_sajt_tojas/sajt/edami", "icon": null, "categoryNodes": [] },
+            { "id": 111, "name": "Camambert", "path": "tejtermek_sajt_tojas/sajt/camambert", "icon": null, "categoryNodes": [] },
+            { "id": 112, "name": "Brie", "path": "tejtermek_sajt_tojas/sajt/brie", "icon": null, "categoryNodes": [] },
+            { "id": 113, "name": "Feta", "path": "tejtermek_sajt_tojas/sajt/feta", "icon": null, "categoryNodes": [] },
+            { "id": 114, "name": "Mozzarella", "path": "tejtermek_sajt_tojas/sajt/mozzarella", "icon": null, "categoryNodes": [] },
+            { "id": 115, "name": "Ömlesztett sajtok", "path": "tejtermek_sajt_tojas/sajt/omlesztettsajtok", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2011,
+          "name": "Vajak, vajkrém, margarin",
+          "path": "tejtermek_sajt_tojas/vaj_vajkrem_margarin",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 11, "name": "Margarin", "path": "tejtermek_sajt_tojas/vaj_vajkrem_margarin/margarin", "icon": null, "categoryNodes": [] },
+            { "id": 12, "name": "Vaj", "path": "tejtermek_sajt_tojas/vaj_vajkrem_margarin/vaj", "icon": null, "categoryNodes": [] },
+            { "id": 13, "name": "Vajkrém", "path": "tejtermek_sajt_tojas/vaj_vajkrem_margarin/vajkrem", "icon": null, "categoryNodes": [] },
+            { "id": 63, "name": "Sütőmargarin", "path": "tejtermek_sajt_tojas/vaj_vajkrem_margarin/sutomargarin", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2014,
+          "name": "Tojás",
+          "path": "tejtermek_sajt_tojas/tojasok",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 14, "name": "Tojás", "path": "tejtermek_sajt_tojas/tojasok/tojas", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2081,
+          "name": "Tejszín",
+          "path": "tejtermek_sajt_tojas/tejszin",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 81, "name": "Főzőtejszín", "path": "tejtermek_sajt_tojas/tejszin/fozotejszin", "icon": null, "categoryNodes": [] },
+            { "id": 82, "name": "Habtejszín", "path": "tejtermek_sajt_tojas/tejszin/habtejszin", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        {
+          "id": 2116,
+          "name": "Tejdesszert",
+          "path": "tejtermek_sajt_tojas/tejdesszert",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 116, "name": "Túródesszert", "path": "tejtermek_sajt_tojas/tejdesszert/turodesszert", "icon": null, "categoryNodes": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "name": "Hús, hal, felvágott",
+      "path": "hus_hal_felvagott",
+      "icon": null,
+      "categoryNodes": [
+        {
+          "id": 3010,
+          "name": "Szárnyas",
+          "path": "hus_hal_felvagott/szarnyas",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 3011, "name": "Csirkemell", "path": "hus_hal_felvagott/szarnyas/csirkemell", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        { "id": 3020, "name": "Sertés", "path": "hus_hal_felvagott/sertes", "icon": null, "categoryNodes": [] }
+      ]
+    },
+    {
+      "id": 1028,
+      "name": "Zöldség, gyümölcs",
+      "path": "zoldseg_gyumolcs",
+      "icon": null,
+      "categoryNodes": [
+        { "id": 4010, "name": "Gyökérzöldség", "path": "zoldseg_gyumolcs/gyokerzoldseg", "icon": null, "categoryNodes": [] }
+      ]
+    },
+    {
+      "id": 1046,
+      "name": "Pékáru",
+      "path": "pekaru",
+      "icon": null,
+      "categoryNodes": [
+        {
+          "id": 5010,
+          "name": "Kenyérfélék",
+          "path": "pekaru/kenyerfelek",
+          "icon": null,
+          "categoryNodes": [
+            { "id": 5011, "name": "Félbarna kenyér, cipó", "path": "pekaru/kenyerfelek/felbarnakenyer_cipo", "icon": null, "categoryNodes": [] }
+          ]
+        },
+        { "id": 5020, "name": "Pékáru egyéb", "path": "pekaru/pekaru_egyeb", "icon": null, "categoryNodes": [] }
+      ]
+    },
+    {
+      "id": 1050,
+      "name": "Tartós élelmiszerek, italok",
+      "path": "tartos_elelmiszer_ital",
+      "icon": null,
+      "categoryNodes": []
+    },
+    {
+      "id": 1068,
+      "name": "Speciális étrend",
+      "path": "specialis_etrend",
+      "icon": null,
+      "categoryNodes": []
+    },
+    {
+      "id": 1123,
+      "name": "Baba",
+      "path": "baba",
+      "icon": null,
+      "categoryNodes": []
+    },
+    {
+      "id": 1126,
+      "name": "Háztartás",
+      "path": "haztartas",
+      "icon": null,
+      "categoryNodes": []
+    },
+    {
+      "id": 1138,
+      "name": "Szépség és higiénia",
+      "path": "szepseg_higienia",
+      "icon": null,
+      "categoryNodes": []
+    }
+  ]
+}
