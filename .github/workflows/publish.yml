@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d
         with:
           python-version: "3.14"
           enable-cache: true
@@ -52,3 +52,5 @@ jobs:
           path: dist/
       - name: Publish distributions
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true

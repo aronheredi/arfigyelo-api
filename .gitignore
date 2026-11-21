@@ -1,11 +1,39 @@
-.venv/
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
+*$py.class
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-dist/
-build/
-*.egg-info/
+.hypothesis/
+.tox/
+.nox/
+.cache/
+
+# Coverage
 .coverage
-uv.lock
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+site/
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep uv.lock committed: CI uses `uv sync --locked` for reproducible builds.
