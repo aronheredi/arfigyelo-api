@@ -113,4 +113,4 @@ uv build                # sdist + wheel in dist/
 
 ## License
 
-MIT — see [LICENSE](https://github.com/aronheredi/arfigyelo-api/blob/main/LICENSE).
+MIT — see [LICENSE](https://github.com/aronheredi/arfigyelo-api/blob/master/LICENSE).
